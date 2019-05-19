@@ -1,0 +1,37 @@
+.searchbox{
+    margin-top:6rem;
+    margin-bottom:3rem;
+}
+.search-image-container{
+    margin-left:1rem;
+    width:6rem;
+    height:6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #00acee;
+    cursor: pointer;
+
+}
+.search-image-container:hover .search-button{
+    width:33%;
+    height:33%;
+   
+}
+.search-button{
+    background-color:#00acee;
+    fill:red;
+    width:30%;
+    height:30%;
+    cursor: pointer;
+    
+}
+
+.search-input{
+    font-size:1.7rem;
+    border:1px solid #00acee;
+    border-radius:60px;
+    outline: none;
+    padding-left: 2rem;
+}
